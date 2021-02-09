@@ -1,0 +1,15 @@
+RewriteEngine On
+#Deny Directory Access
+Options -Indexes
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule (.*) /index.php/$1 
+
+RewriteRule ^index.php/(.+?)/(.+?)/(.+?)/?$ /index.php?c=$1&m=$2&p1=$3 [L,QSA]
+RewriteRule ^index.php/(.+?)/(.+?)/?$ /index.php?c=$1&m=$2 [L,QSA]
+
+##Remove Index.php From URL
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d

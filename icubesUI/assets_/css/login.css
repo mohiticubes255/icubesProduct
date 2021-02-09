@@ -1,0 +1,186 @@
+.login.login-6 .login-signin,
+.login.login-6 .login-signup,
+.login.login-6 .login-forgot {
+    display: none;
+}
+
+
+/*Signin on starts*/
+
+.login.login-6.login-signin-on .login-signup {
+    display: none;
+}
+
+.login.login-6.login-signin-on .login-signin {
+    display: block;
+}
+
+.login.login-6.login-signin-on .login-forgot {
+    display: none;
+}
+
+.login.login-6.login-signin-on .login-auth {
+    display: none;
+}
+
+.login.login-6.login-signin-on .login-otp {
+    display: none;
+}
+
+
+/*Signin on ends*/
+
+
+/*Signup on starts*/
+
+.login.login-6.login-signup-on .login-signup {
+    display: block;
+}
+
+.login.login-6.login-signup-on .login-signin {
+    display: none;
+}
+
+.login.login-6.login-signup-on .login-forgot {
+    display: none;
+}
+
+.login.login-6.login-signup-on .login-auth {
+    display: none;
+}
+
+.login.login-6.login-signup-on .login-otp {
+    display: none;
+}
+
+
+/*Signup on ends*/
+
+
+/*forgot on starts*/
+
+.login.login-6.login-forgot-on .login-signup {
+    display: none;
+}
+
+.login.login-6.login-forgot-on .login-signin {
+    display: none;
+}
+
+.login.login-6.login-forgot-on .login-forgot {
+    display: block;
+}
+
+.login.login-6.login-forgot-on .login-auth {
+    display: none;
+}
+
+.login.login-6.login-forgot-on .login-otp {
+    display: none;
+}
+
+
+/*forgot on ends*/
+
+
+/*auth on starts*/
+
+.login.login-6.login-auth-on .login-auth {
+    display: block;
+}
+
+.login.login-6.login-auth-on .login-signup {
+    display: none;
+}
+
+.login.login-6.login-auth-on .login-signin {
+    display: none;
+}
+
+.login.login-6.login-auth-on .login-forgot {
+    display: none;
+}
+
+.login.login-6.login-auth-on .login-otp {
+    display: none;
+}
+
+
+/*auth on ends*/
+
+
+/*otp on starts*/
+
+.login.login-6.login-otp-on .login-auth {
+    display: none;
+}
+
+.login.login-6.login-otp-on .login-signup {
+    display: none;
+}
+
+.login.login-6.login-otp-on .login-signin {
+    display: none;
+}
+
+.login.login-6.login-otp-on .login-auth {
+    display: none;
+}
+
+.login.login-6.login-otp-on .login-otp {
+    display: block;
+}
+
+
+/*otp on ends*/
+
+.login.login-6 .login-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login.login-6 .login-divider>div {
+    height: 400px;
+    background: #ffffff;
+    width: 30px;
+    box-shadow: -19px 0 35px -7px rgba(0, 0, 0, 0.05);
+}
+
+@media (min-width: 992px) {
+    .login.login-6 .login-wrapper {
+        width: 100%;
+        max-width: 450px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .login.login-6 .login-wrapper {
+        width: 100%;
+        max-width: 350px;
+    }
+    .login.login-6 .login-divider {
+        display: flex;
+        padding-top: 0;
+        width: 60%;
+        margin: 5px auto;
+        align-items: center;
+        justify-content: center;
+    }
+    .login.login-6 .login-divider>div {
+        height: 30px;
+        background: #ffffff;
+        width: 100%;
+        box-shadow: 0 -15px 30px -10px rgba(0, 0, 0, 0.1);
+    }
+}
+
+@media (max-width: 767.98px) {
+    .login.login-6 .login-wrapper {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+
+/*# sourceMappingURL=login.css.map*/
